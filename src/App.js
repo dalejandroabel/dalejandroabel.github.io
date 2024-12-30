@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import {Provider} from "./components/ui/provider"
+import Demo from './components/menutab';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Demo />
     </div>
     </Provider>
   );
