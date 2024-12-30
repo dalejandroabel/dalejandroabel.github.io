@@ -1,20 +1,16 @@
 import { Tabs } from "@chakra-ui/react"
-import { LuCheckSquare, LuFolder, LuUser } from "react-icons/lu"
 
 const Demo = () => {
   return (
     <Tabs.Root defaultValue="members">
       <Tabs.List>
         <Tabs.Trigger value="members">
-          <LuUser />
           Members
         </Tabs.Trigger>
         <Tabs.Trigger value="projects">
-          <LuFolder />
           Projects
         </Tabs.Trigger>
         <Tabs.Trigger value="tasks">
-          <LuCheckSquare />
           Settings
         </Tabs.Trigger>
       </Tabs.List>
