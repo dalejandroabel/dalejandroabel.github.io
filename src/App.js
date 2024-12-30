@@ -1,8 +1,10 @@
 import logo from './logo.svg';
+import {Provider} from "./components/ui/provider"
 import './App.css';
 
 function App() {
   return (
+    <Provider>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +21,7 @@ function App() {
         </a>
       </header>
     </div>
+    </Provider>
   );
 }
 
