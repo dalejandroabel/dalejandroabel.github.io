@@ -2,7 +2,7 @@
   "name": "my-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/dalejandroabel/dalejandroabel.github.io",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/react": "^16.1.0",
     "cra-template": "1.2.0",
